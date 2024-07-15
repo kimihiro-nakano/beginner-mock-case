@@ -1,0 +1,91 @@
+.header__menu {
+    position: absolute;
+    top: 20px;
+    right: 1%;
+}
+
+.header__menu-list {
+    margin-bottom: 0;
+    display: flex;
+    padding: 10px 6px;
+    list-style: none;
+}
+
+.header__menu-item {
+    margin-right: 20px;
+}
+.header__menu-link {
+    text-decoration: none;
+    color: #202124;
+    font-size: 15px;
+}
+
+.button-as-link {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.attendance__content {
+    background-color: #f2f2f2;
+    padding: 20px 100px 70px;
+    margin: 0 auto;
+    max-width: 1230px;
+    height: calc(100vh - 150px);
+}
+
+.attendance__title {
+    margin-bottom: 20px;
+    color: #202124;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attendance__title h2 {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.date-nav__form {
+    display: flex;
+    align-items: center;
+}
+
+.date-nav__button {
+    margin: 0 30px;
+    padding: 0 10px;
+    color: #214BE0;
+    font-weight: bold;
+    border: 1px solid #214BE0;
+    background-color: #fff;
+}
+
+.attendance__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attendance__row {
+    border-top: 1px solid #202124;
+}
+
+.attendance__label, .attendance__data {
+    width: 20%;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 15px;
+}
+
+.attendance__label:first-child, .attendance__data:first-child {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.pagination {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
