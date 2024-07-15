@@ -13,7 +13,7 @@
 
 - 会員登録ページ
 
-<img src="https://github.com/user-attachments/assets/5dcc1cde-667c-4509-8981-d1ad26735190" alt="register" width="５00"/>  
+<img src="https://github.com/user-attachments/assets/5dcc1cde-667c-4509-8981-d1ad26735190" alt="register" width="500"/>  
 
 - ログインページ
 
