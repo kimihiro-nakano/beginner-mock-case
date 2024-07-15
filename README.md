@@ -13,39 +13,39 @@
 
 - 会員登録ページ
 
-![register.png](/register.png)
+![register.png](./register.png)
 
 - ログインページ
 
-![login.png](/login.png)
+![login.png](./login.png)
 
 - メール確認ページ（認証リンクを送信ボタンをクリックで、
 
 メールアドレスに認証リンク送信）
 
-![verifyEmail.png](/verifyEmail.png)
+![verifyEmail.png](./verifyEmail.png)
 
 - 認証リンクメールを受信したら、メールアドレスを確認するボタンでログイン
 
-![email.png](/email.png)
+![email.png](./email.png)
 
 - 打刻ページ（出勤：日を跨いだ時点で翌日の出勤に切替、休憩：1 日で何度も休憩が可能）
 
-![attendance.png](/attendance.png)
+![attendance.png](./attendance.png)
 
 - 日付一覧ページ（ページネーション５件ずつ）
 
-![index.png](/index.png)
+![index.png](./index.png)
 
 - ユーザーページ（ユーザー名をクリックするとユーザーごとの勤怠表の表示
 
 ページネーション５件ずつ）
 
-![userList.png](/userList.png)
+![userList.png](./userList.png)
 
 - ユーザーごとの勤怠表ページ（ページネーション５件ずつ）
 
-![userDetail.png](/userDetail.png)
+![userDetail.png](./userDetail.png)
 
 【ダミーデータの作成】
 
@@ -70,11 +70,11 @@
 
 ## テーブル設計
 
-![table.png](/table.png)
+![table.png](./table.png)
 
 ## ER 図
 
-![er.png](/er.png)
+![er.png](./er.png)
 
 ## 環境構築
 
@@ -84,7 +84,7 @@
 git clone git@github.com:kimihiro-nakano/beginner-mock-case.git
 ```
 
-1.  DockerDesktop アプリを立ち上げる
+2.  DockerDesktop アプリを立ち上げる
 
 ```
 docker-compose up -d --build
@@ -99,19 +99,19 @@ mysql:
     environment:
 ```
 
-1. Laravel 環境構築
+3. Laravel 環境構築
 
 ```
 docker-compose exec php bash
 ```
 
-1. Composer のインストール
+4. Composer のインストール
 
 ```
  composer install
 ```
 
-1.  .env.example ファイルから .env を作成し、環境変数を変更
+5.  .env.example ファイルから .env を作成し、環境変数を変更
 
 ```
 
@@ -125,19 +125,19 @@ DB_PASSWORD=laravel_pass
 MAIL_FROM_ADDRESS=test@example.com
 ```
 
-1. アプリケーションキーの作成
+6. アプリケーションキーの作成
 
 ```
 php artisan key:generate
 ```
 
-1. マイグレーションの実行
+7. マイグレーションの実行
 
 ```
 php artisan migrate
 ```
 
-1. シーディングの実行
+8. シーディングの実行
 
 ```
 php artisan db:seed
