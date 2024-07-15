@@ -1,4 +1,4 @@
-## Beginner-mock-case
+# Beginner-mock-case
 
 サービス名は Atte（アット）、ある企業の勤怠管理システム
 
@@ -142,4 +142,3 @@ php artisan migrate
 ```
 php artisan db:seed
 ```
-# beginner-mock-case
