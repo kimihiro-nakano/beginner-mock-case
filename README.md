@@ -13,39 +13,39 @@
 
 - 会員登録ページ
 
-![register](https://github.com/user-attachments/assets/5dcc1cde-667c-4509-8981-d1ad26735190)
+<img src="https://github.com/user-attachments/assets/5dcc1cde-667c-4509-8981-d1ad26735190" alt="register" width="300"/>  
 
 - ログインページ
 
-![login](https://github.com/user-attachments/assets/a40a3acd-df6c-4b6d-b4f5-ce365ce748f1)
+<img src="https://github.com/user-attachments/assets/a40a3acd-df6c-4b6d-b4f5-ce365ce748f1" alt="login" width="300"/>  
 
 - メール確認ページ（認証リンクを送信ボタンをクリックで、
 
 メールアドレスに認証リンク送信）
 
-![verifyEmail](https://github.com/user-attachments/assets/53dad81b-17bd-48eb-843d-1556b998f39e)
+<img src="https://github.com/user-attachments/assets/53dad81b-17bd-48eb-843d-1556b998f39e" alt="verifyEmail" width="300"/>  
 
 - 認証リンクメールを受信したら、メールアドレスを確認するボタンでログイン
 
-![email](https://github.com/user-attachments/assets/7cbe69c7-63fb-49df-a537-332d6e579af3)
+<img src="https://github.com/user-attachments/assets/7cbe69c7-63fb-49df-a537-332d6e579af3" alt="email" width="300"/>  
 
 - 打刻ページ（出勤：日を跨いだ時点で翌日の出勤に切替、休憩：1 日で何度も休憩が可能）
 
-![email](https://github.com/user-attachments/assets/7cbe69c7-63fb-49df-a537-332d6e579af3)
+<img src="https://github.com/user-attachments/assets/7cbe69c7-63fb-49df-a537-332d6e579af3" alt="email" width="300"/>  
 
 - 日付一覧ページ（ページネーション５件ずつ）
 
-![index](https://github.com/user-attachments/assets/7a17e1b1-7ca1-49af-8fdb-771197848de8)
+<img src="https://github.com/user-attachments/assets/7a17e1b1-7ca1-49af-8fdb-771197848de8" alt="index" width="300"/>  
 
 - ユーザーページ（ユーザー名をクリックするとユーザーごとの勤怠表の表示
 
 ページネーション５件ずつ）
 
-![userList](https://github.com/user-attachments/assets/0ac0d334-1fbe-4e81-8830-cb4347ee7c74)
+<img src="https://github.com/user-attachments/assets/0ac0d334-1fbe-4e81-8830-cb4347ee7c74" alt="userList" width="300"/>  
 
 - ユーザーごとの勤怠表ページ（ページネーション５件ずつ）
 
-![userDetail](https://github.com/user-attachments/assets/01d13c42-dab7-48dd-a3b1-16cc77a5aa11)
+<img src="https://github.com/user-attachments/assets/01d13c42-dab7-48dd-a3b1-16cc77a5aa11" alt="userDetail" width="300"/>  
 
 【ダミーデータの作成】
 
