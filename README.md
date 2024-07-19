@@ -31,7 +31,7 @@
 
 - 打刻ページ（出勤：日を跨いだ時点で翌日の出勤に切替、休憩：1 日で何度も休憩が可能）
 
-<img src="https://github.com/user-attachments/assets/7cbe69c7-63fb-49df-a537-332d6e579af3" alt="email" width="500"/>  
+<img src="https://github.com/user-attachments/assets/e196fa85-68f0-4143-aecf-f8a2c48732fe" alt="email" width="500"/>  
 
 - 日付一覧ページ（ページネーション５件ずつ）
 
