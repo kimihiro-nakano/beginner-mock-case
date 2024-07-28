@@ -124,9 +124,9 @@ DB_PASSWORD=laravel_pass
 ```
 
 6.  Mailtrapの設定
-　　　　　　　　アカウント作成、GithubアカウントでSign upできます。
-　　　　　　　　https://mailtrap.io
-    設定するのは、「MAIL_PORT」「MAIL_USERNAME」「MAIL_PASSWORD」の３つです。
+- アカウント作成、GithubアカウントでSign upできます。
+- https://mailtrap.io
+- 設定するのは、「MAIL_PORT」「MAIL_USERNAME」「MAIL_PASSWORD」の３つです。
 ```
 MAIL_DRIVER=smtp
 MAIL_HOST=[smtp.mailtrap.io]
