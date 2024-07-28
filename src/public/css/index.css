@@ -31,6 +31,7 @@
     padding: 20px 100px 70px;
     margin: 0 auto;
     height: calc(100vh - 150px);
+    max-width: 1230px;
 }
 
 .timestamp__title {

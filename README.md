@@ -13,39 +13,39 @@
 
 - 会員登録ページ
 
-<img src="https://github.com/user-attachments/assets/5dcc1cde-667c-4509-8981-d1ad26735190" alt="register" width="500"/>  
+<img src="https://github.com/user-attachments/assets/5dcc1cde-667c-4509-8981-d1ad26735190" alt="register" width="500"/>
 
 - ログインページ
 
-<img src="https://github.com/user-attachments/assets/a40a3acd-df6c-4b6d-b4f5-ce365ce748f1" alt="login" width="500"/>  
+<img src="https://github.com/user-attachments/assets/a40a3acd-df6c-4b6d-b4f5-ce365ce748f1" alt="login" width="500"/>
 
 - メール確認ページ（認証リンクを送信ボタンをクリックで、
 
 メールアドレスに認証リンク送信）
 
-<img src="https://github.com/user-attachments/assets/53dad81b-17bd-48eb-843d-1556b998f39e" alt="verifyEmail" width="500"/>  
+<img src="https://github.com/user-attachments/assets/53dad81b-17bd-48eb-843d-1556b998f39e" alt="verifyEmail" width="500"/>
 
 - 認証リンクメールを受信したら、メールアドレスを確認するボタンでログイン
 
-<img src="https://github.com/user-attachments/assets/7cbe69c7-63fb-49df-a537-332d6e579af3" alt="email" width="500"/>  
+<img src="https://github.com/user-attachments/assets/7cbe69c7-63fb-49df-a537-332d6e579af3" alt="email" width="500"/>
 
 - 打刻ページ（出勤：日を跨いだ時点で翌日の出勤に切替、休憩：1 日で何度も休憩が可能）
 
-<img src="https://github.com/user-attachments/assets/e196fa85-68f0-4143-aecf-f8a2c48732fe" alt="email" width="500"/>  
+<img src="https://github.com/user-attachments/assets/e196fa85-68f0-4143-aecf-f8a2c48732fe" alt="email" width="500"/>
 
 - 日付一覧ページ（ページネーション５件ずつ）
 
-<img src="https://github.com/user-attachments/assets/7a17e1b1-7ca1-49af-8fdb-771197848de8" alt="index" width="500"/>  
+<img src="https://github.com/user-attachments/assets/7a17e1b1-7ca1-49af-8fdb-771197848de8" alt="index" width="500"/>
 
 - ユーザーページ（ユーザー名をクリックするとユーザーごとの勤怠表の表示
 
 ページネーション５件ずつ）
 
-<img src="https://github.com/user-attachments/assets/0ac0d334-1fbe-4e81-8830-cb4347ee7c74" alt="userList" width="500"/>  
+<img src="https://github.com/user-attachments/assets/0ac0d334-1fbe-4e81-8830-cb4347ee7c74" alt="userList" width="500"/>
 
 - ユーザーごとの勤怠表ページ（ページネーション５件ずつ）
 
-<img src="https://github.com/user-attachments/assets/01d13c42-dab7-48dd-a3b1-16cc77a5aa11" alt="userDetail" width="500"/>  
+<img src="https://github.com/user-attachments/assets/01d13c42-dab7-48dd-a3b1-16cc77a5aa11" alt="userDetail" width="500"/>
 
 【ダミーデータの作成】
 
@@ -123,10 +123,12 @@ DB_USERNAME=laravel_user
 DB_PASSWORD=laravel_pass
 ```
 
-6.  Mailtrapの設定
-- アカウント作成、GithubアカウントでSign upできます。
+6.  Mailtrap の設定
+
+- アカウント作成、Github アカウントで Sign up できます。
 - https://mailtrap.io
 - 設定するのは、「MAIL_PORT」「MAIL_USERNAME」「MAIL_PASSWORD」の３つです。
+
 ```
 MAIL_DRIVER=smtp
 MAIL_HOST=[smtp.mailtrap.io]
@@ -138,14 +140,15 @@ MAIL_FROM_ADDRESS=test@example.com
 ```
 
 7. アプリケーションキーの作成
+8. アプリケーションキーの作成
 
 ```
 php artisan key:generate
 ```
 
 8. マイグレーションの実行
+9. マイグレーションの実行
 
 ```
 php artisan migrate
 ```
-
