@@ -121,24 +121,31 @@ DB_PORT=3306
 DB_DATABASE=laravel_db
 DB_USERNAME=laravel_user
 DB_PASSWORD=laravel_pass
-~
+```
+
+6.  Mailtrapの設定
+　　　　　　　　アカウント作成、GithubアカウントでSign upできます。
+　　　　　　　　https://mailtrap.io
+    設定するのは、「MAIL_PORT」「MAIL_USERNAME」「MAIL_PASSWORD」の３つです。
+```
+MAIL_DRIVER=smtp
+MAIL_HOST=[smtp.mailtrap.io]
+MAIL_PORT=2525
+MAIL_USERNAME=[MailtrapのUsername]
+MAIL_PASSWORD=[MailtrapのPassword]
+MAIL_ENCRYPTION=null
 MAIL_FROM_ADDRESS=test@example.com
 ```
 
-6. アプリケーションキーの作成
+7. アプリケーションキーの作成
 
 ```
 php artisan key:generate
 ```
 
-7. マイグレーションの実行
+8. マイグレーションの実行
 
 ```
 php artisan migrate
 ```
 
-8. シーディングの実行
-
-```
-php artisan db:seed
-```
